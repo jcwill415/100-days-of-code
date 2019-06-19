@@ -4,18 +4,23 @@ The log of my #100DaysOfCode challenge. Started on [June 16, Sunday, 2019].
 
 ## Log
 
-### R1D1 
+### R1D1 6/16/19
 Worked on CSS Basics @treehouse. Basic selectors, common values & units. https://teamtreehouse.com/ 4hrs prework @codelouisville.
 
-### R1D2
+### R1D2 6/17/19
 AM tutorials #Python #AutomateTheBoringStuffWithPython. CSS text/box shadows & gradients @treehouse. 2hrs prework @codelouisville.
 
-### R1D3
+### R1D3 6/18/19
+Completed @codelouisville pre-work: #HTML and #CSS. Reviewing a @treehouse #SQL course. Having so much fun! We use a relational database at work using SQL, and I'm excited to improve my #SQL skills and put them to good use. Plan to review some practice exercises in #HTML and #CSS before 6/26.
 
 ### R1D4
+
 ### R1D5
+
 ### R1D6
+
 ### R1D7
+
 ### R1D8
 ### R1D9
 ### R1D10
