@@ -54,6 +54,17 @@ Reporting w/ #SQL @treehouse part 2. Ordering Limiting. Paging Results.
 -moving on to differences b/w databases...after work!
 
 ### R1D11 06/26/19
+STRFTIME()
+STRFTIME(<format string>, <time string>, <modifier>)
+            -> "01/04/2015"
+STRFTIME(<format string>, "2015-04-01 23:12:01", <modifier>)
+
+STRFTIME("%d%m$Y", "2015-04-01 23:12:01", <modifier>)
+            -> "01/04/2015"
+
+SELECT *, ordered_on AS UK_date FROM orders;
+SELECT *, STRFTIME("%d%m%Y", ordered_on) AS UK_date FROM orders;
+
 Formatting Dates For Reporting
 The dates stored in a database often don't suit a human reader. 
 
