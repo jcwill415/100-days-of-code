@@ -13,18 +13,48 @@ AM tutorials #Python #AutomateTheBoringStuffWithPython. CSS text/box shadows & g
 ### R1D3 6/18/19
 Completed @codelouisville pre-work: #HTML and #CSS. Reviewing a @treehouse #SQL course. Having so much fun! We use a relational database at work using SQL, and I'm excited to improve my #SQL skills and put them to good use. Plan to review some practice exercises in #HTML and #CSS before 6/26.
 
-### R1D4
+### R1D4 6/19/19
+Still reviewing #SQL @treehouse! w3schools.com/sql/sql_select.asp
 
-### R1D5
+Write SELECT statement to query data from relational database
+Select specific columns
+Searching tables using 'WHERE'
+Filter by comparing values
 
-### R1D6
+### R1D5 06/20/19
+R1D5: Made progress in @treehouse #SQL course, reviewing relational operators. Having fun! Working on basics, then focus on writing better queries.
 
-### R1D7
+Also looking at @thew3cx courses on http://edx.org  #HTML5 & #JavaScript soon!
 
-### R1D8
-### R1D9
-### R1D10
-### R1D11
+### R1D6 06/21/19
+Modifying #SQL @treehouse, review & practice. Practice, practice, practice. 
+
+5hrs to go in SQL Basics -- learning a lot everyday!
+
+### R1D7 06/22/19
+@treehouse + modifying data w/ #SQL. Updating Data in a Database badge.
+
+### R1D8 06/23/19
+R1D8: Reporting w/ #SQL @treehouse. Working on data handling - ordering, limiting, manipulating text, and aggregation.
+
+SQL Basics Cheatsheet:
+https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md
+
+Reporting w/ SQL Cheatsheet: https://github.com/treehouse/cheatsheets/blob/master/reporting_with_sql/cheatsheet.md
+
+Reporting w/ #SQL @treehouse part 2. Ordering Limiting. Paging Results.
+
+### R1D9 06/24/19
++ Reporting w/ #SQL @treehouse; Functions/CONCAT. About an hr left on this module!
+
+### R1D10 06/25/19
++ #SQL @treehouse - completed 1 hr during lunch!
+
+-aggregate & numeric functions
+-moving on to differences b/w databases...after work!
+
+### R1D11 06/26/19
+
 ### R1D12
 ### R1D13
 ### R1D14
