@@ -53,7 +53,35 @@ Reporting w/ #SQL @treehouse part 2. Ordering Limiting. Paging Results.
 -aggregate & numeric functions
 -moving on to differences b/w databases...after work!
 
-### R1D11 06/26/19
+### R1D11 06/26/19 - part 2
+
+DATE() Function  
+
+DATE("now") - get today's date w/ time string "now"
+DATE("2016-12-19 09:10:55") - trim off time portion of time string
+DATE("2016-12-19 09:10:55", "+1 year") - w/ modifier to calculate dates too
+
+TIME() Function
+
+TIME("now") - get time "now"
+TIME("2016-12-19 09:10:55") - remove date from time string
+TIME("2016-12-19 09:10:55", "+1 hour") - w/ modifier to create new date strings
+
+STRFTIME() Function
+
+Format with values substituted by parts of the date passed in the second argument of the STRFTIME Function
+
+STRFTIME("%d-%-m", "now")
+STRFTIME("%m-%-Y", "2016-12-19 09:10:55")
+STRFTIME("%Y", "2016-12-19 09:10:55", "+1 year")
+
+### R1D11 06/26/19 - part 1
+In a movies database we have a movies table. It has the columns of id, title, date_released and genre.
+
+Write a query that returns the title first and the month and year it was released alias as month_year_released. Dates should look like "04/1983" for April 1983.
+
+SELECT title, STRFTIME("%m/%Y", date_released) AS month_year_released FROM movies;
+
 STRFTIME()
 STRFTIME(<format string>, <time string>, <modifier>)
             -> "01/04/2015"
