@@ -54,6 +54,56 @@ Reporting w/ #SQL @treehouse part 2. Ordering Limiting. Paging Results.
 -moving on to differences b/w databases...after work!
 
 ### R1D11 06/26/19 - part 2
+1. What will the following function return?
+DATE("2016-02-10 22:21:23", "+1 year")
+"2017-02-10"
+
+2. Counting all values in a specific column will count all rows including empty or NULL values.
+FALSE
+
+3. What function would I use to get the average of numeric values in a column?
+AVG();
+
+4. The - is a(n): Operator
+
+5. Which of the following is the correct way to use the STRFTIME() function?
+A	STRFTIME("3118-12-01", "+3 years", "%Y-%m-%d")
+B	STRFTIME("3118-12-01", "%Y-%m-%d", "+3 years")
+C	STRFTIME("%Y-%m-%d", "3118-12-01") - correct
+
+6. The ___ function is used to make strings uppercase.
+UPPER
+
+7. What will this date and modifier produce?
+DATE("now", "+1 day")
+Tommorrow
+
+8. LENGTH() is described as a: Function
+
+9. The ___ keyword is used after the ORDER BY clause to order dates from the most recent to the furthest back in time.
+DESC
+
+10. _____ BY is used to aggregate rows together.
+GROUP
+
+11. If today was the 8th July 2018, how would I write that date in SQLite/SQL Playground?
+"2018-07-08"
+
+12. ___ is the operator you'd use to add two pieces of text together in SQLite/SQL Playground.
+||
+CONCAT
+
+13. What is the correct way of using the REPLACE() function for replacing "javascript" with "JavaScript"?
+
+SELECT REPLACE("I can't capitalize javascript correctly!", "JavaScript",
+"javascript");
+
+14. ____ is a keyword that can be used in conjunction with LIMIT to page through results. 
+OFFSET
+
+15. What will this function return?
+TIME("2016-10-11 23:59:00", "+2 minutes")
+"00:01:00"
 
 DATE() Function  
 
