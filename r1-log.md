@@ -45,13 +45,13 @@ Reporting w/ SQL Cheatsheet: https://github.com/treehouse/cheatsheets/blob/maste
 Reporting w/ #SQL @treehouse part 2. Ordering Limiting. Paging Results.
 
 ### R1D9 06/24/19
-+ Reporting w/ #SQL @treehouse; Functions/CONCAT. About an hr left on this module!
+#Reporting w/ #SQL @treehouse; Functions/CONCAT. About an hr left on this module!
 
 ### R1D10 06/25/19
-+ #SQL @treehouse - completed 1 hr during lunch!
+#SQL @treehouse - completed 1 hr during lunch!
 
--aggregate & numeric functions
--moving on to differences b/w databases...after work!
+#aggregate & numeric functions
+#moving on to differences b/w databases...after work!
 
 ### R1D11 06/26/19 - part 2
 1. What will the following function return?
@@ -105,20 +105,17 @@ OFFSET
 TIME("2016-10-11 23:59:00", "+2 minutes")
 "00:01:00"
 
-+DATE() Function  
-
+#DATE() Function  
 DATE("now") - get today's date w/ time string "now"
 DATE("2016-12-19 09:10:55") - trim off time portion of time string
 DATE("2016-12-19 09:10:55", "+1 year") - w/ modifier to calculate dates too
 
-+TIME() Function
-
+#TIME() Function
 TIME("now") - get time "now"
 TIME("2016-12-19 09:10:55") - remove date from time string
 TIME("2016-12-19 09:10:55", "+1 hour") - w/ modifier to create new date strings
 
-+STRFTIME() Function
-
+#STRFTIME() Function
 Format with values substituted by parts of the date passed in the second argument of the STRFTIME Function
 
 STRFTIME("%d-%-m", "now")
@@ -143,20 +140,20 @@ STRFTIME("%d%m$Y", "2015-04-01 23:12:01", <modifier>)
 SELECT *, ordered_on AS UK_date FROM orders;
 SELECT *, STRFTIME("%d%m%Y", ordered_on) AS UK_date FROM orders;
 
-Formatting Dates For Reporting
+#Formatting Dates For Reporting
 The dates stored in a database often don't suit a human reader. 
 
-Documentation Links for Formatting Dates
+#Documentation Links for Formatting Dates
 
-+SQLite - https://www.sqlite.org/lang_datefunc.html
-+MS SQL - https://docs.microsoft.com/en-us/sql/t-sql/functions/date-and-time-data-types-and-functions-transact-sql?view=sql-server-2017#SetorGetSessionFormatFunctions
-+PostgreSQL - https://www.postgresql.org/docs/9.1/functions-datetime.html
-+MySQL - https://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html
-+Oracle -https://docs.oracle.com/cd/B28359_01/server.111/b28286/sql_elements004.htm
+#SQLite - https://www.sqlite.org/lang_datefunc.html
+#MS SQL - https://docs.microsoft.com/en-us/sql/t-sql/functions/date-and-time-data-types-and-functions-transact-sql?view=sql-server-2017#SetorGetSessionFormatFunctions
+#PostgreSQL - https://www.postgresql.org/docs/9.1/functions-datetime.html
+#MySQL - https://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html
+#Oracle -https://docs.oracle.com/cd/B28359_01/server.111/b28286/sql_elements004.htm
 
-Cheat Sheets
-+SQL Basics - https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md
-+Reporting with SQL - https://github.com/treehouse/cheatsheets/blob/master/reporting_with_sql/cheatsheet.md
+#Cheat Sheets
+#SQL Basics - https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md
+#Reporting with SQL - https://github.com/treehouse/cheatsheets/blob/master/reporting_with_sql/cheatsheet.md
 
 -- DATE(<time string>, <modifiers>)
 
