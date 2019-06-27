@@ -105,19 +105,19 @@ OFFSET
 TIME("2016-10-11 23:59:00", "+2 minutes")
 "00:01:00"
 
-DATE() Function  
++DATE() Function  
 
 DATE("now") - get today's date w/ time string "now"
 DATE("2016-12-19 09:10:55") - trim off time portion of time string
 DATE("2016-12-19 09:10:55", "+1 year") - w/ modifier to calculate dates too
 
-TIME() Function
++TIME() Function
 
 TIME("now") - get time "now"
 TIME("2016-12-19 09:10:55") - remove date from time string
 TIME("2016-12-19 09:10:55", "+1 hour") - w/ modifier to create new date strings
 
-STRFTIME() Function
++STRFTIME() Function
 
 Format with values substituted by parts of the date passed in the second argument of the STRFTIME Function
 
@@ -148,16 +148,15 @@ The dates stored in a database often don't suit a human reader.
 
 Documentation Links for Formatting Dates
 
-SQLite - https://www.sqlite.org/lang_datefunc.html
-MS SQL - https://docs.microsoft.com/en-us/sql/t-sql/functions/date-and-time-data-types-and-functions-transact-sql?view=sql-server-2017#SetorGetSessionFormatFunctions
-PostgreSQL - https://www.postgresql.org/docs/9.1/functions-datetime.html
-MySQL - https://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html
-Oracle -https://docs.oracle.com/cd/B28359_01/server.111/b28286/sql_elements004.htm
++SQLite - https://www.sqlite.org/lang_datefunc.html
++MS SQL - https://docs.microsoft.com/en-us/sql/t-sql/functions/date-and-time-data-types-and-functions-transact-sql?view=sql-server-2017#SetorGetSessionFormatFunctions
++PostgreSQL - https://www.postgresql.org/docs/9.1/functions-datetime.html
++MySQL - https://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html
++Oracle -https://docs.oracle.com/cd/B28359_01/server.111/b28286/sql_elements004.htm
 
 Cheat Sheets
-
-SQL Basics - https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md
-Reporting with SQL - https://github.com/treehouse/cheatsheets/blob/master/reporting_with_sql/cheatsheet.md
++SQL Basics - https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md
++Reporting with SQL - https://github.com/treehouse/cheatsheets/blob/master/reporting_with_sql/cheatsheet.md
 
 -- DATE(<time string>, <modifiers>)
 
@@ -167,7 +166,6 @@ BETWEEN DATE("now", "-7 days") AND DATE("now", "-1 day");
 SELECT COUNT(*) FROM orders WHERE ordered_on
 BETWEEN DATE("now", "-7 days", "-7 days")
     AND DATE("now", "-1 day", "-7 days");
-
 
 ### R1D12
 ### R1D13
