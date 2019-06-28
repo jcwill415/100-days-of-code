@@ -164,92 +164,156 @@ SELECT COUNT(*) FROM orders WHERE ordered_on
 BETWEEN DATE("now", "-7 days", "-7 days")
     AND DATE("now", "-1 day", "-7 days");
 
-### R1D12
-### R1D13
-### R1D14
-### R1D15
-### R1D16
-### R1D17
-### R1D18
-### R1D19
-### R1D20
-### R1D21
-### R1D22
-### R1D23
-### R1D24
-### R1D25
-### R1D26
-### R1D27
-### R1D28
-### R1D29
-### R1D30
-### R1D31
-### R1D32
-### R1D33
-### R1D34
-### R1D35
-### R1D36
-### R1D37
-### R1D38
-### R1D39
-### R1D40
-### R1D41
-### R1D42
-### R1D43
-### R1D44
-### R1D45
-### R1D46
-### R1D47
-### R1D48
-### R1D49
-### R1D50
-### R1D51
-### R1D52
-### R1D53
-### R1D54
-### R1D55
-### R1D56
-### R1D57
-### R1D58
-### R1D59
-### R1D60
-### R1D61
-### R1D62
-### R1D63
-### R1D64
-### R1D65
-### R1D66
-### R1D67
-### R1D68
-### R1D69
-### R1D70
-### R1D71
-### R1D72
-### R1D73
-### R1D74
-### R1D75
-### R1D76
-### R1D77
-### R1D78
-### R1D79
-### R1D80
-### R1D81
-### R1D82
-### R1D83
-### R1D84
-### R1D85
-### R1D86
-### R1D87
-### R1D88
-### R1D89
-### R1D90
-### R1D91
-### R1D92
-### R1D93
-### R1D94
-### R1D95
-### R1D86
-### R1D97
-### R1D98
-### R1D99
-### R1D100
+### R1D12 06/27/19
+Downloaded anaconda for Python 3.7 & Jupyter Notebooks. Very excited. Also checking out the GitHub Guides! #HelloWorld
+
+Completed Reporting w/ SQL: SQL can be used to generate reports and present information on websites.
+
+Finishing Querying Relational Databases - 98 minutes left.
+
+Inner Joins
+Inner Joins are the most common types of Joins. Inner joins match records together where values are equal on both sides of the join statement.
+
+-- SELECT <columns> FROM <table1> INNER JOIN <table2> ON <equality criteria> WHERE <search criteria> ...
+
+-- What are all Chevy models?
+
+SELECT * FROM make INNER JOIN model ON make.MakeID = model.MakeID;
+
+SELECT MakeName, ModelName FROM make
+  INNER JOIN model ON make.MakeID = model.MakeID;
+  
+SELECT MakeName, ModelName FROM make AS mk
+  INNER JOIN model AS md ON mk.MakeID = md.MakeID;
+
+### R1D13 06/28/1
+
+### R1D14 06/29/19
+
+### R1D15 06/30/19
+
+### R1D16 07/01/19
+
+### R1D17 07/02/19
+
+### R1D18 07/0319
+
+### R1D19 07/04/19
+
+### R1D20 07/05/19
+
+### R1D21 07/06/19
+
+### R1D22 07/07/19
+
+### R1D23 07/08/19
+
+### R1D24 07/09/19
+
+### R1D25 07/10/19
+
+### R1D26 07/11/19
+
+### R1D27 07/12/19
+ 
+### R1D28 07/13/19
+
+### R1D29 07/14/19
+
+### R1D30 07/15/19
+
+### R1D31 07/16/19
+
+### R1D32 07/17/19
+
+### R1D33 07/18/19
+
+### R1D34 07/19/19
+
+### R1D35 07/20/19
+
+### R1D36 07/21/19
+
+### R1D37 07/22/19
+
+### R1D38 07/23/19
+
+### R1D39 07/24/19
+
+### R1D40 07/25/19
+
+### R1D41 07/26/19
+
+### R1D42 07/27/19
+
+### R1D43 07/28/19
+
+### R1D44 07/29/19
+
+### R1D45 07/21/19
+
+### R1D46 07/22/19
+
+### R1D47 07/23/19
+
+### R1D48 07/24/19
+
+### R1D49 07/25/19
+
+### R1D50 07/26/19
+
+### R1D51 07/27/19
+
+### R1D52 07/28/19
+
+### R1D53 07/29/19
+
+### R1D54 07/30/19
+
+### R1D55 07/31/19
+
+### R1D56 08/01/19
+### R1D57 08/02/19
+### R1D58 08/03/19
+### R1D59 08/04/19
+### R1D60 08/05/19
+### R1D61 08/06/19
+### R1D62 08/07/19
+### R1D63 08/08/19
+### R1D64 08/09/19
+### R1D65 08/10/19
+### R1D66 08/11/19
+### R1D67 08/12/19
+### R1D68 08/13/19
+### R1D69 08/14/19
+### R1D70 08/15/19
+### R1D71 08/16/19
+### R1D72 08/17/19
+### R1D73 08/18/19
+### R1D74 08/19/19
+### R1D75 08/20/19
+### R1D76 08/21/19
+### R1D77 08/22/19
+### R1D78 08/23/19
+### R1D79 08/24/19
+### R1D80 08/25/19
+### R1D81 08/26/19
+### R1D82 08/27/19
+### R1D83 08/28/19
+### R1D84 08/29/19
+### R1D85 08/30/19
+### R1D86 08/31/19
+### R1D87 09/01/19
+### R1D88 09/02/19
+### R1D89 09/03/19
+### R1D90 09/04/19
+### R1D91 09/05/19
+### R1D92 09/06/19
+### R1D93 09/07/19
+### R1D94 09/08/19
+### R1D95 09/09/19
+### R1D86 09/10/19
+### R1D97 09/11/19
+### R1D98 09/12/19
+### R1D99 09/13/19
+### R1D100 09/14/19
